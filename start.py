@@ -19,6 +19,9 @@ def g():
 /thanos
 /bkdir
 /vendor
+/modpack_install
+/server
+/temp
 
 composer.*
 configuration.json
@@ -26,6 +29,15 @@ configuracion.json
 *.txt
 *.pyc
 *.output
+*.md
+*.log
+*.zip
+*.jar
+*.py
+*.json
+*.sh
+*.bin
+
 """
         with open('.gitignore', 'w') as f:
             f.write(c)
